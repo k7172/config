@@ -1,5 +1,4 @@
-URxvt.font:	xft:terminus:pixelsize=8
-URxvt.boldFont: xft:terminus:pixelsize=8
+URxvt.font:	xft:terminus:pixelsize=14
 URxvt.color4: RoyalBlue
 URxvt.color12: RoyalBlue
 URxvt.scrollBar: false
