@@ -119,7 +119,7 @@ alias vim='vim -p'
 alias gvim='gvim -p'
 alias vi='vim'
 if ! $isroot; then
-alias visudo="sudo EDITOR='$EDITOR' visudo"
+	alias visudo="sudo EDITOR='$EDITOR' visudo"
     alias vipw="sudo EDITOR='$EDITOR' vipw"
     alias vigr="sudo EDITOR='$EDITOR' vigr"
 fi
@@ -127,10 +127,10 @@ fi
 # bg on empty line, push-input on non-empty line
 fancy-ctrl-z() {
     if [[ $#BUFFER -eq 0 ]]; then
-bg
-zle redisplay
-    else
-zle push-input
+		bg
+		zle redisplay
+	else
+		zle push-input
     fi
 }
 zle -N fancy-ctrl-z
