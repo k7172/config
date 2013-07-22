@@ -13,10 +13,11 @@ set incsearch
 set nobackup
 set noswapfile
 set pastetoggle=<F2>
+set bg=dark
 
 filetype plugin indent on
 autocmd filetype python set expandtab
 
-colorscheme desert
 syntax on
 
+colorscheme jellybeans
